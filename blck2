@@ -6,15 +6,15 @@
 /* hides Captcha table row */
 
 /* body background and text color */
-html, body { background:none !important; background-color:rgb( 31, 34, 53 ) !important; color:rgb(195, 195, 195) !important; }
+html, body { background:none !important; background-color:rgb( 14, 27, 26 ) !important; color:rgb(195, 195, 195) !important; }
 body { margin:2px !important; }
 
 /* primary link color */
 body a, .quoteLink, .quotelink, .replylink, .useremail, span.nameBlock .useremail, .burichan_new .backlink a, .yotsuba_b_new .backlink a
-{ color:rgb( 202, 184, 112 ) !important; text-decoration:none !important; }
+{ color:rgb( 178, 64, 64 ) !important; text-decoration:none !important; }
 
 body a:hover, a.replylink:hover, a.replylink:not(:hover), div#absbot a:not(:hover), .useremail:hover, span.nameBlock .useremail:hover, .burichan_new .backlink a:hover, .yotsuba_b_new .backlink a:hover
-{ color:rgb(195, 195, 195) !important; text-decoration:none !important; }
+{ color:rgb(195,195,195) !important; text-decoration:none !important; }
 
 a.replylink:not(:hover), div#absbot a:not(:hover) { color:rgb(95, 95, 130) !important; }
 
@@ -24,14 +24,14 @@ hr { opacity:0 !important; }
 div.backlink { font-size:13px !important; }
 
 /* poster name */
-.name, .post-author { color:rgb( 168, 124, 75 ) !important; font-weight: normal !important;}
+.name, .post-author { color:rgb( 228, 205, 148 ) !important; font-weight: normal !important;}
 a.useremail span { color:rgb(110, 110, 149) !important; text-decoration:none !important; }
 a.useremail:hover span { color:rgb(95, 95, 130) !important; text-decoration:none !important; }
 .useremail:not(:hover) .name, .useremail:not(:hover) .postertrip
 { color:rgb(110, 110, 149) !important; }
 
 /* poster trip */
-span.postertrip, .post-tripcode { color:rgb( 147, 86, 65 ) !important; font-weight:bold !important; }
+span.postertrip, .post-tripcode { color:rgb( 110, 118, 117 ) !important; font-weight:bold !important; }
 div.post div.postInfo span.nameBlock span.postertrip { !important; }
 
 .recaptchatable { border:0 !important; }
@@ -44,7 +44,7 @@ div.post div.postInfo span.nameBlock span.postertrip { !important; }
 #settingsBox, #theme.panel, #filters.panel, kbd {
     width:auto !important;
     overflow:hidden !important;
-    background-color:rgb(46, 60, 81) !important;
+    background-color:rgb(26, 30, 33) !important;
     border-radius:3px 3px 3px 3px !important;
     border:0 !important;
 }
@@ -60,15 +60,15 @@ div.post div.postInfo span.nameBlock span.postertrip { !important; }
 .post.reply {
     overflow:hidden !important;
     display:block !important;
-    background-color:rgb( 57, 60, 79 ) !important;
+    background-color:rgb( 40, 53, 52 ) !important;
     border-radius:0px 0px 0px 0px !important;
     border:0 !important;
     padding-right:0px !important;
     padding-left:7px !important;
     outline:0 !important
 }
-.post { color:rgb(195,195,195) !important; }
-.replyContainer { width:99.2% !important; }
+.post { color:rgb(195, 195, 195) !important; }
+.replyContainer { width:99.1% !important; }
 
 /* post form */
 /* ===== **** THIS IS THE REAL WIDTH **** ===== */
@@ -120,7 +120,7 @@ textarea,
  {
    -webkit-appearance: none;
    -moz-appearance: none;
-   background-color:rgb( 57, 60, 79 ) !important;
+   background-color:rgb( 40, 53, 52 ) !important;
    color:rgb(205, 205, 205) !important;
    outline:none !important;
    border-width:0 !important;
@@ -204,15 +204,15 @@ td[style="padding: 18px 7px 18px 7px;"], td[style="padding: 4px 7px 12px 7px;"] 
 span.filter-preview { display:none !important; }
 
 /* post number */
-.postNum a, .ws .postNum a { color:rgb( 184, 156, 91 ) !important; }
+.postNum a, .ws .postNum a { color:rgb( 110, 118, 117 ) !important; }
 .postNum a:hover, div.post div.postInfo span.postNum a:hover, .posteruid .hand:hover, .ws .postNum a:hover
-{ color:rgb(195, 195, 195) !important; }
+{ color:rgb(195,195,195) !important; }
 
 .capcode.id_mod:hover { color:rgb(128, 0, 128) !important }
 
 /* [Reply] link */
-a.replylink { color:rgb(110, 110, 149) !important; }
-a.replylink:hover { color:rgb(95, 95, 130) !important; }
+a.replylink { color:rgb(195, 195, 195) !important; }
+a.replylink:hover { color:rgb(195,195,195) !important; }
 hr { border-color:#000 !important; }
 
 /* subject */
@@ -253,7 +253,7 @@ input[value="delete"] { display:none !important; }
 /* pages box */
 .pagelist, table.pages {
    background:none !important;
-   background-color:rgb( 57, 60, 79 ) !important;
+   background-color:rgb( 40, 53, 52 ) !important;
    color:rgb(80, 80, 80) !important;
    border:0 !important;
    border-radius:0px 0px 0px 0px !important;
@@ -317,7 +317,7 @@ h3[style="text-decoration: underline; display: inline;"] { text-decoration:none 
 #first-run { background:none !important; color:rgb(195,195,195) !important; border:none !important; }
 
 /* Thread Watcher */
-.threadWatcher, #twHeader, .extPanel.reply { background-color:rgb( 31, 34, 53 ) !important; color:rgb(195, 195, 195) !important; border:none !important; font-weight: normal !important; width: 200px !important;}
+.threadWatcher, #twHeader, .extPanel.reply { background-color:rgb( 14, 27, 26 ) !important; color:rgb(195, 195, 195) !important; border:none !important; font-weight: normal !important; width: 200px !important;}
 
 /* Settings box */
 div.panelHeader { border:none !important; }
@@ -355,7 +355,7 @@ table.flashListing tr:nth-of-type(2n+1), .highlightPost {
 div.closed { display:none !important; }
 
 /* for the catalog page */
-.btn-wrap .button { color:rgb(110, 110, 149) !important; text-decoration:none !important; }
+.btn-wrap .button { color:rgb(0,0,0) !important; text-decoration:none !important; }
 .btn-wrap .button:hover { color:rgb(95, 95, 130) !important; text-decoration:none !important; }
 .cataloglink { border:none !important; }
 
@@ -405,13 +405,13 @@ img[alt="4chan"] { margin-top:15px !important; border:1px solid rgb(195, 195, 19
 
 /* post highlight color change */
 .reply:target, .reply.highlight {
-   background-color:rgb(39,39,39) !important;
-   color:rgb(225,225,225) !important;
+   background-color:rgb(39, 39, 39) !important;
+   color:rgb(225, 225, 225) !important;
 }
 .reply:target span.name, .reply.highlight span.name { color:rgb(132, 52, 52) !important; }
 
 .reply:target a.useremail span, .reply.highlight a.useremail span
-{ color:rgb(110, 110, 149) !important; text-decoration:none !important; }
+{ color:rgb(195, 195, 195) !important; text-decoration:none !important; }
 .reply:target a.useremail:hover span, .reply.highlight a.useremail:hover span
 { color:rgb(95, 95, 130) !important; text-decoration:none !important; }
 
